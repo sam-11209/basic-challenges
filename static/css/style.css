@@ -1,0 +1,159 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    background: url('../images/triColor.jpg');
+}
+
+.flex-box {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    justify-content: space-around;
+    background: url('../images/redish.jpg');
+}
+
+.flex-box div {
+    padding: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    background: url('../images/colored.jpg');
+}
+
+
+/* .container-2 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background: url('C:/Users/hp/Desktop/JS/triColor.jpg');
+} */
+
+.container-2 div {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background: url('../images/redish.jpg');
+}
+
+.flex-box-2 {
+    padding: 10px;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    background: url('../images/redish.jpg');
+}
+
+.flex-box-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(red, green, blue, alpha);
+    width: 25%;
+}
+
+
+/* .container-3 {
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    background: url('C:/Users/hp/Desktop/JS/triColor.jpg');
+} */
+
+.flex-box-3 {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    background: url('../images/redish.jpg');
+}
+
+
+/* .container-4 {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    background: url('C:/Users/hp/Desktop/JS/triColor.jpg');
+} */
+
+.flex-box-4 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    /* border: 1px solid black; */
+    background: url('../images/redish.jpg');
+}
+
+.flex-box-4 select {
+    background: url('../images/colored.jpg');
+}
+
+.flex-box-4 button {
+    border: 1px solid black;
+}
+
+.container-5 {
+    width: 75%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    background: url('../images/triColor.jpg');
+}
+
+.combineMeAndBoat,
+.allbuttons {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    background: url('../images/redish.jpg');
+    /* color: #ffffff; */
+}
+
+.combineMeAndBoat div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 370px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.combineMeAndBoat img {
+    width: 25%;
+    padding: 10px;
+}
+
+.resultTable {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    background: url('../images/triColor.jpg');
+}
+
+.allbuttons button {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+    background: url('../images/beauty.jpg');
+}
