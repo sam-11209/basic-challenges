@@ -339,7 +339,7 @@ function randomCardPicker() {
 function showCard(card, activePlayer) {
     let cardImage = document.createElement('img');
     //Focus on this hoe we pass variable inside image to select random image
-    cardImage.src = `C:/Users/hp/Documents/JS project1/static/images/${card}.jpg`;
+    cardImage.src = `C:/Users/hp/Documents/JS project1/static/images/${card}.jpeg`;
     document.querySelector(activePlayer['div']).append(cardImage);
     hitSound.play();
 }
